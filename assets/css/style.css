@@ -12,7 +12,7 @@ body {
 
 /* apply styles to <header> */
 header {
-    padding: 20px 35 px;
+    padding: 20px 35px;
     background-color: #39a6b2;
 }
 
@@ -68,12 +68,12 @@ footer a {
 }
 
 section {
-    padding: 60px;
+    padding: 0px;
 }
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpeg");
+    background-image: url('../images/hero-bg.jpeg');
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -125,16 +125,7 @@ section {
 
 .intro {
     text-align: center;
-}
-
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
+    padding: 10px 0 30px 0;
 }
 
 .intro p {
@@ -159,15 +150,6 @@ section {
     margin: 10px 0;
 }
 
-.steps h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #39a6b2;
-}
-
 .steps h3 {
     color: #024e76;
     font-size: 46px;
@@ -186,8 +168,8 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    margin-bottom: 25px;
+    padding: 40px 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
 }
@@ -247,9 +229,11 @@ section {
     text-align: right;
 }
 
+/* REACH OUT STYLES START */
+
 .contact {
-    background: #024e76;
     text-align: center;
+    background: #024e76;
 }
 
 .contact h2 {
@@ -269,3 +253,21 @@ section {
     margin: 30px 0 0 60px;
     color: white;
 }
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #fce138;
+}
+
+/* REACH OUT STYLES END */
