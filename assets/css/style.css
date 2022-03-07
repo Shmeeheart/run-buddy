@@ -79,6 +79,7 @@ section {
     background-position: center;
     position: relative;
 }
+/*Hero Style End */
 
 .hero-form {
     border: 3px solid #024e76;
@@ -111,7 +112,7 @@ section {
 }
 
 .hero-form label {
-    margin: 0 px;
+    margin: 0 5px;
 }
 
 .hero-form button {
@@ -121,7 +122,6 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Style End */
 
 .intro {
     text-align: center;
