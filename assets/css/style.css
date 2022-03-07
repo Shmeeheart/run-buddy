@@ -67,6 +67,10 @@ footer a {
     color: #024e76; 
 }
 
+section {
+    padding: 0px;
+}
+
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpeg");
@@ -119,10 +123,6 @@ footer a {
 }
 /* Hero Style End */
 
-section {
-    padding: 0px;
-}
-
 .intro {
     text-align: center;
 }
@@ -138,23 +138,6 @@ section {
 .steps {
     text-align: center;
     background: #fce138;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3 px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 .steps div {
@@ -179,4 +162,21 @@ section {
 
 .steps span {
     font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3 px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
 }
