@@ -236,6 +236,10 @@ section {
     background: #024e76;
 }
 
+.map {
+    display: flex;
+}
+
 .contact h2 {
     color: #fce138;
 }
